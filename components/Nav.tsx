@@ -17,7 +17,7 @@ const Nav = (props: Props) => {
 
   return (
     <div>
-      <div className='pt-[30px] px-[50px] flex justify-between'>
+      <div className='pt-[30px] px-4 sm:px-[50px] flex justify-between'>
         {/* the logo */}
         <Image
           height={1000}
