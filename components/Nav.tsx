@@ -52,12 +52,10 @@ const Nav = (props: Props) => {
               className=' w-[38px] h-[38px] lg:hidden '
               alt='creon meny'
             />
-
-            {/* Render sidebar if reveal is true */}
           </div>
         </div>
       </div>
-
+      {/* Render sidebar if reveal is true */}
       <div className='lg:hidden'>
         {reveal && (
           <Sidebar
