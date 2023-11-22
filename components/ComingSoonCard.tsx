@@ -12,8 +12,8 @@ const ComingSoonCard = ({ innerText, header, subText, imageUrl }: Props) => {
   return (
     <div className='min-h-[630px] min-w-[292px]   xl:h-[659px] xl:w-[453px] mt-[156px] mx-4 rounded-[6px] bg-[#13171D]'>
       <div className='flex justify-end right-4'>
-        <div className=' -mt-[10px] rounded-[100px] flex justify-end px-[6px] py-[3px] gap-[10px] w-fit bg-white'>
-          <h1 className='w-[90px] h-[13px] font-mono font-[700] text-[12px] leading-[13.2px] text-center text-black'>
+        <div className=' -mt-[10px] rounded-[100px] mr-[25px] flex justify-end px-[6px] py-[3px] gap-[10px] w-fit bg-white'>
+          <h1 className=' h-[13px] font-mono font-[700] text-[12px] leading-[13.2px] text-center text-black'>
             {' '}
             COMING SOON
           </h1>

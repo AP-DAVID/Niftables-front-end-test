@@ -22,7 +22,10 @@ const MissionAccenture = ({ header, imageUrl }: Props) => {
       <div className=' flex flex-col mt-5 w-full'>
         <div className='flex items-start justify-between w-full '>
           {' '}
-          <h1 className='max-w-[366px] max-h-[58px] font-mono font-[700] lg:text-[22px] text-[18px] lg:leading-[28.6px] leading-[23.4px] text-white'>
+          <h1
+            onClick={() => setReview(!review)}
+            className='max-w-[366px] cursor-pointer max-h-[58px] font-mono font-[700] lg:text-[22px] text-[18px] lg:leading-[28.6px] leading-[23.4px] text-white'
+          >
             {header}
           </h1>
           {review ? (
