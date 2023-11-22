@@ -8,7 +8,7 @@ import Profiting from '@/features/Profiting';
 import '@mantine/carousel/styles.css';
 export default function Home() {
   return (
-    <main className='bg-black h-screen overflow-y-scroll pb-10'>
+    <main className='bg-black h-screen overflow-y-scroll pb-20'>
       {/* hero */}
       <section id='hero'>
         <Hero />
