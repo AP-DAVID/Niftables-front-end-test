@@ -31,7 +31,7 @@ const ComingSoonCard = ({ innerText, header, subText, imageUrl }: Props) => {
 
       <Image
         src={imageUrl}
-        className='lg:w-full lg:h-[234px] w-[272px] h-[234px] md:w-[288px] md:h-[234px]'
+        className='lg:w-full lg:h-[234px] w-[272px] h-[234px] md:w-[288px] object-cover md:h-[234px]'
         height={1000}
         width={1000}
         alt='the side image'

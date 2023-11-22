@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
       <div className='flex flex-col max-w-[1440px] px-2 items-center mt-[70px] mx-auto  justify-center h-full space-y-10'>
         <div className='flex flex-col space-y-10'>
           {/* hero header */}
-          <h1 className='font-sans font-[400] lg:text-[68px] md:text-[44px] text-[32px] lg:leading-[74.8px] md:leading-[48.4px] leading-[35.2px] max-w-[1200px] text-white'>
+          <h1 className='font-sans font-[400] lg:text-[68px] md:text-[44px] text-[32px] lg:leading-[74.8px] md:leading-[48.4px] leading-[35.2px] max-w-[1300px] text-white'>
             The world&apos;s first platform for Tokenizing AI blockchain
             projects
           </h1>
