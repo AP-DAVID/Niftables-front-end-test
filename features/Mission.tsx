@@ -26,8 +26,8 @@ const Mission = (props: Props) => {
           className=' md:w-[628px] md:h-[377px] h-[182px] w-[302px] lg:h-[502px] lg:w-[836px] rounded-[6px] object-cover'
         />
       </div>
-   
-   {/* component Accordions */}
+
+      {/* component Accordions */}
       <div>
         <MissionAccenture
           header='Profitability and Growth'
