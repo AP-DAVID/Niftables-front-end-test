@@ -5,7 +5,8 @@ import Hero from '@/features/Hero';
 import Market from '@/features/Market';
 import Mission from '@/features/Mission';
 import Profiting from '@/features/Profiting';
-import '@mantine/carousel/styles.css';
+
+
 export default function Home() {
   return (
     <main className='bg-black h-screen overflow-y-scroll pb-20 sm:pb-10'>

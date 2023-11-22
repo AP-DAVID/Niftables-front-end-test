@@ -5,7 +5,7 @@ type Props = {};
 
 const Profiting = (props: Props) => {
   return (
-    <div className='bg-black px-2 pt-10'>
+    <div className='bg-black px-2 pt-32'>
       {/* component header */}
       <div className=' py-5 max-w-[1350px] mx-auto'>
         <h1 className=' font-sans text-left font-[400] lg:text-[68px] md:text-[44px] lg:leading-[74.8px] md:leading-[48.4px] text-[32px] leading-[35.2px] text-white'>

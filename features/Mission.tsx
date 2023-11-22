@@ -1,4 +1,4 @@
-import MissionAccenture from '@/components/MissionAccenture';
+import MissionAccordion from '@/components/MissionAccordion';
 import Image from 'next/image';
 import React from 'react';
 
@@ -29,19 +29,19 @@ const Mission = (props: Props) => {
 
       {/* component Accordions */}
       <div>
-        <MissionAccenture
+        <MissionAccordion
           header='Profitability and Growth'
           imageUrl='/FirstAccenture.png'
         />
-        <MissionAccenture
+        <MissionAccordion
           header='Transparent & Fair Decentralized Earnings'
           imageUrl='/SecondAccenture.svg'
         />
-        <MissionAccenture
+        <MissionAccordion
           header='Launching the future'
           imageUrl='/ThirdAccenture.png'
         />
-        <MissionAccenture
+        <MissionAccordion
           header='Limitless Possibilities of AI & Crypto'
           imageUrl='/FourthAccenture.png'
         />

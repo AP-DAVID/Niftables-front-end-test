@@ -16,7 +16,7 @@ const Nav = (props: Props) => {
   };
 
   return (
-    <div>
+    <header>
       <div className='pt-[30px] px-4 sm:px-[50px] flex justify-between'>
         {/* the logo */}
         <Image
@@ -65,7 +65,7 @@ const Nav = (props: Props) => {
           />
         )}
       </div>
-    </div>
+    </header>
   );
 };
 

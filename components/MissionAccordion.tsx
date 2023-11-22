@@ -7,10 +7,11 @@ type Props = {
   imageUrl: string;
 };
 
-const MissionAccenture = ({ header, imageUrl }: Props) => {
+const MissionAccordion = ({ header, imageUrl }: Props) => {
   const [review, setReview] = useState<boolean>(false);
   return (
     <div className='flex space-x-7 items-start my-10'>
+      {/* the image */}
       <Image
         src={imageUrl}
         alt='mission png'
@@ -24,9 +25,8 @@ const MissionAccenture = ({ header, imageUrl }: Props) => {
           {' '}
           <h1
             onClick={() => setReview(!review)}
-            className={`max-w-[366px] cursor-pointer max-h-[58px] font-mono font-[700] lg:text-[22px] text-[18px] lg:leading-[28.6px] ${
-              !review && 'hover:text-[#3d8bff]'
-            } leading-[23.4px] text-white`}
+            className={`max-w-[366px] cursor-pointer max-h-[58px] font-mono font-[700] lg:text-[22px] text-[18px] lg:leading-[28.6px] ${!review && 'hover:text-[#3d8bff]'
+              } leading-[23.4px] text-white`}
           >
             {header}
           </h1>
@@ -51,6 +51,7 @@ const MissionAccenture = ({ header, imageUrl }: Props) => {
           )}
         </div>
 
+        {/* the accordion text */}
         {review && (
           <h1
             className='font-[400] mt-3 lg:max-w-[379px] md:max-w-[
@@ -69,4 +70,4 @@ const MissionAccenture = ({ header, imageUrl }: Props) => {
   );
 };
 
-export default MissionAccenture;
+export default MissionAccordion;
